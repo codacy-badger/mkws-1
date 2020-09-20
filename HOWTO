@@ -13,8 +13,8 @@ following lines right below the `body` tag:
 	    <nav>
 	            <ul>
 	                    <li><a href=/>Home</a></li>
-	                    <li><a href=docs.html>Docs</a></li>
-	                    <li><a href=srcs.html>Sources</a></li>
+	                    <li><a href=doc.html>Docs</a></li>
+	                    <li><a href=src.html>Sources</a></li>
 	                    <li><a href=contact.html>Contact</a></li>
 	            </ul>
 	    </nav>
@@ -44,13 +44,13 @@ the following example:
 	<meta name=description content='Latest news about my website'>
 	#!
 	;;
-	./docs.upphtml)
+	./doc.upphtml)
 	#!
 	<title>Documentation</title>
 	<meta name=description content='Documentation for my website'>
 	#!
 	;;
-	./srcs.upphtml)
+	./src.upphtml)
 	#!
 	<title>Sources</title>
 	<meta name=description content='Sources for my website'>

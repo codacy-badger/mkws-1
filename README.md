@@ -1,12 +1,10 @@
-# [`mkws(1)`](https://mkws.sh) 
+# ◻️ [`mkws(1)`](https://mkws.sh) 
 
-Efficient Static Site Generator
+> Efficient Static Site Generator
 
-<pre>
-<img src=https://mkws.sh/images/gha.svg width=806 height=96>
-</pre>
+<img src=https://mkws.sh/images/gha.svg#>
 
-## Requirements
+## 📦 Requirements
 
 A UNIX like operating system is recommended like
 [macOS](https://www.apple.com/macos/),
@@ -20,7 +18,7 @@ via the
 [Windows Subsystem for Linux](
 https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-## Installation (applies to [Linux](https://kernel.org))
+## ⚙️ Installation (applies to [Linux](https://kernel.org))
 
 You'll have to download [https://mkws.sh/mkws@4.0.1.tgz](
 https://mkws.sh/mkws@4.0.1.tgz). Once you have the archive, unpack
@@ -33,7 +31,7 @@ tar -xzfv ~/Downloads/mkws@4.0.1.tgz
 mv ws.sh example.com
 ```
 
-## Make web site
+## 🌍 Make web site
 
 Create an `index.upphtml` file, it will be preprocessed with
 [`pp(1)`](https://mkws.sh/pp.html), and run `./bin/mkws` with the url
@@ -56,7 +54,7 @@ layout file is held in `./share/l.upphtml`.
 
 Also, you can always modify your `./bin/mkws` script, if it's the case.
 
-## Important!
+## ❗ Important
 
 Because [`pp(1)`](https://mkws.sh/pp.html) uses
 [`sh(1)`](

@@ -16,13 +16,13 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 ## Installation (applies to [Linux](https://kernel.org))
 
-You'll have to download [https://mkws.sh/mkws@4.0.1.tgz](
-https://mkws.sh/mkws@4.0.1.tgz). Once you have the archive, unpack
+You'll have to download [https://mkws.sh/mkws@4.0.3.tgz](
+https://mkws.sh/mkws@4.0.3.tgz). Once you have the archive, unpack
 it and rename the newly created directory:
 
 	mkdir -p ~/src/
 	cd ~/src/
-	tar -xzfv ~/Downloads/mkws@4.0.1.tgz
+	tar -xzfv ~/Downloads/mkws@4.0.3.tgz
 	mv ws.sh example.com
 
 ## Make web site
@@ -59,4 +59,3 @@ interchangeable](
 https://html.spec.whatwg.org/multipage/syntax.html#attributes-2).
 We recommend not quoting attribute values and using single quotes (`'`)
 in special cases.
-**
